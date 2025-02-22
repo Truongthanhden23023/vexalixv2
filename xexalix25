@@ -272,40 +272,38 @@ local Tab = Window:CreateTab("Main", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "Thunder Z Hub| Finder Fruits",
    Callback = function()
-      -- Sao chép liên kết vào bộ nhớ tạm
-      setclipboard("https://fnote.net/notes/W4YbXg")
-      print("Link đã được sao chép vào bộ nhớ tạm!")
+   _G.Webhook = ""
+
+_G.MetodeTeleport = "Instant" --"Tween" or "Instant"
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/ThundarZ/Welcome/refs/heads/main/Main/BloxFruit/FindFruit.lua')))()
+   -- The function that takes place when the button is pressed
    end,
 })
-
 
 local Button = Tab:CreateButton({
    Name = "Zenith Hub Fruit Farm",
    Callback = function()
-      -- Sao chép liên kết vào bộ nhớ tạm
-      setclipboard("https://fnote.net/notes/85sNaX")
-      print("Link đã được sao chép vào bộ nhớ tạm!")
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Truongthanhden23023/Zenith-h-fruit-fram/refs/heads/main/Fruit%20fram", true))()
+   -- The function that takes place when the button is pressed
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "Script auto server Hop Dough King V2",
    Callback = function()
-      -- Sao chép liên kết vào bộ nhớ tạm
-      setclipboard("https://fnote.net/notes/2PCG0y")
-      print("Link đã được sao chép vào bộ nhớ tạm!")
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/AutoDoughKing-Kill-Teddy"))()
+   -- The function that takes place when the button is pressed
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "Teddy Hop",
    Callback = function()
-      -- Sao chép liên kết vào bộ nhớ tạm
-      setclipboard("https://fnote.net/notes/xt7WCs")
-      print("Link đã được sao chép vào bộ nhớ tạm!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/TeddyHop-FREE"))()
+   -- The function that takes place when the button is pressed
    end,
 })
-
 
 local Toggle = Tab:CreateToggle({
    Name = "Auto Anti Afk",
