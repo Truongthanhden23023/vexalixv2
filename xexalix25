@@ -278,11 +278,12 @@ local Button = Tab:CreateButton({
    end,
 })
 
+
 local Button = Tab:CreateButton({
    Name = "Zenith Hub Fruit Farm",
    Callback = function()
       -- Sao chép liên kết vào bộ nhớ tạm
-      setclipboard("https://fnote.org/notes/85sNaX")
+      setclipboard("https://fnote.net/notes/85sNaX")
       print("Link đã được sao chép vào bộ nhớ tạm!")
    end,
 })
@@ -297,13 +298,14 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "Teddy Hub hop server",
+   Name = "Teddy Hop",
    Callback = function()
       -- Sao chép liên kết vào bộ nhớ tạm
-      setclipboard("https://fnote.org/notes/xt7WCs")
+      setclipboard("https://fnote.net/notes/xt7WCs")
       print("Link đã được sao chép vào bộ nhớ tạm!")
    end,
 })
+
 
 local Toggle = Tab:CreateToggle({
    Name = "Auto Anti Afk",
@@ -594,31 +596,4 @@ local Button = Tab:CreateButton({
    Name = "Speed X Hub",
    Callback = function()
    -- The function that takes place when the button is pressed
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
-   end,
-})
-
-local Tab = Window:CreateTab("Doors", 4483362458) -- Title, Image
-
-local Button = Tab:CreateButton({
-   Name = "Rael Hub",
-   Callback = function()
-   -- The function that takes place when the button is pressed
-loadstring(game:HttpGet"https://raw.githubusercontent.com/Laelmano24/Rael-Hub/main/main.txt")()
-   end,
-})
-
-local Tab = Window:CreateTab("Script Ugc", 4483362458) -- Title, Image
-
-local Button = Tab:CreateButton({
-   Name = "Sword Fighting Simulator X",
-   Callback = function()
-   -- The function that takes place when the button is pressed
-loadstring(game:HttpGet("https://raw.githubusercontent.com/r4mpage4/UGCLIMITED/refs/heads/main/swordfight.lua"))();
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "Murder Mittens",
-   Callback = function()
-   -- The function that takes pla
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%
